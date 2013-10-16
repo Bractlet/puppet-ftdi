@@ -6,6 +6,6 @@
 class ftdi {
   package { 'ftdi':
     provider => 'pkgdmg',
-    source   => 'https://s3.amazonaws.com/bractlet-src/ftdi.dmg',
+    source   => 'http://s3.amazonaws.com/bractlet-src/ftdi.dmg',
   }
 }
