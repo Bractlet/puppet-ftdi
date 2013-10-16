@@ -4,7 +4,7 @@ describe 'ftdi' do
   it do
     should contain_package('ftdi').with({
       :provider => 'pkgdmg',
-      :source   => 'http://www.ftdichip.com/drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_18.dmg',
+      :source   => 'https://s3.amazonaws.com/bractlet-src/ftdi.dmg',
     })
   end
 end
